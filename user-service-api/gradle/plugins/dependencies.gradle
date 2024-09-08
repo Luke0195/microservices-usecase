@@ -5,6 +5,7 @@ repositories{
 }
 
 dependencies {
+    implementation 'br.com.lucas:hd-commns-lib:1.0.0'
     // Starter para desenvolvimento de aplicativos web com Spring Boot
     implementation 'org.springframework.boot:spring-boot-starter-web'
 
