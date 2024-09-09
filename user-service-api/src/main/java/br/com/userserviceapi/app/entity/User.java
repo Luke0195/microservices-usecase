@@ -1,7 +1,11 @@
 package br.com.userserviceapi.app.entity;
 
 import br.com.lucas.models.enums.ProfileEnum;
-import lombok.*;
+import lombok.With;
+import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import lombok.Builder;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.LastModifiedDate;
