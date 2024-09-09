@@ -1,6 +1,7 @@
 package br.com.userserviceapi.app.controller;
 
-import br.com.userserviceapi.app.entity.User;
+import br.com.lucas.dtos.response.UserResponseDto;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -12,6 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 public interface UserController {
 
     @GetMapping("/{id}")
-    ResponseEntity<User> findById(@PathVariable(name="id") final String id);
+    ResponseEntity<UserResponseDto> findById(@PathVariable(name="id") final String id);
 
 }

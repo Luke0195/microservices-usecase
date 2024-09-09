@@ -28,7 +28,7 @@ public class User implements Serializable {
     private String name;
     private String email;
     private String password;
-    private Set<ProfileEnum> profileEnum;
+    private Set<ProfileEnum> profile;
     @CreatedDate
     private LocalDateTime createdAt;
     @LastModifiedDate
